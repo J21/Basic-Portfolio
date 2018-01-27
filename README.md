@@ -1,2 +1,1 @@
-# Basic-Portfolio
-Homework 1-recommended
+Hello! In this project, I created a basic portfolio from scratch using just html and css files. I made great use of a navbar, along with images that perfectly demonstrate the projects and skills that I currently possess. There are also descriptions about me in this portfolio, so please feel free to read it!
