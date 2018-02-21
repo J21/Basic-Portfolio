@@ -1,122 +1,70 @@
-<!-- Demo Layout for Bootstrap (with panels) -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
-
-  <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-default">
+  <header id="masthead">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-        <a class="navbar-brand" href="#">Jonathan Patiag</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
+      <nav>
+         <a href="index.html" id="logo">Home</a>
+        <a href="portfolio.html">Skills and classes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <!--/.container-fluid -->
-  </nav>
+  </header>
 
-  <!-- Main Body goes in Container -->
-  <div class="container">
-    <div class="row">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Skills and Classes</h1>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
-      <!-- The content in this div gets wrapped in a panel -->
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h1>Contact Me</h1>
-        </div>
+        <h3>Trivia Game</h3>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-        <p>Email tester project!</p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-        <p>Randoop project!</p>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-        <p>UDP/TCP project!</p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-        <p>Psuedocode for reverse engineering project!</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-        <p>My portfolio!!(This website)</p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-        <p>Future projects...</p>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-lg-12">
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
 
-        <!-- The content in this div gets wrapped in a panel -->
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="text-center">
-              <p>Connect with Me!</p>
-              <img class="" src="assets/images/if_github_circle_black_107161.png" alt="Error!" style="width:60px;height:60px;">
-              <img class="" src="assets/images/if_linkedin_square_color_107091.png" alt="Error!" style="width:60px;height:60px;">
-              <img class="" src="assets/images/if_stackoverflow_287529.png" alt="Error!" style="width:60px;height:60px;">
-            </div>
-          </div>
-        </div>
+        <h3>Rutgers Info Widget</h3>
       </div>
-    </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me!</h2>
+
+       <a href="https://github.com/J21"><img src="assets/images/if_github_circle_black_107161.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/jonathan-patiag/"><img src="assets/images/if_linkedin_square_color_107091.png" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/users/8557345/jbp21"><img src="assets/images/if_stackoverflow_287529.png" class="social" alt="Stack Overflow" /></a>      </div>
+    </section>
   </div>
+
+  <footer>
+    <div class="container">
+      Copyright @Github; 2017 Jonathan Patiag
+    </div>
+  </footer>
 </body>
-<footer>
 
 </html>
