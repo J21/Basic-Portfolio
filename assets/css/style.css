@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background-image: url('../images/Computer.jpg');
 }
 
 * {
@@ -205,19 +205,6 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
- 
- /*
- +  The background color will be #ccc
- +  at browser widths above 768px
- +*/
- body {
-   /* Typography */
-   font-size: 18px;
-   line-height: 27px;
- 
-   /* Visual */
-   background-color: #ccc;
- }
  
  /*
  +  The width of the wrapper will be 1024px
